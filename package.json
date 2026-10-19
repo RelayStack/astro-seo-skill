@@ -1,0 +1,25 @@
+{
+  "name": "astro-seo-skill",
+  "version": "0.5.1",
+  "description": "Agent skill: implement SEO on Astro sites — llms.txt, sitemap, robots.txt, JSON-LD, IndexNow, and the AI-search launch checklist.",
+  "type": "module",
+  "license": "MIT",
+  "author": {
+    "name": "RelayStack",
+    "url": "https://relaystack.github.io/"
+  },
+  "homepage": "https://github.com/RelayStack/astro-seo-skill#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RelayStack/astro-seo-skill.git"
+  },
+  "engines": { "node": ">=18" },
+  "files": ["SKILL.md", "scripts/", "references/"],
+  "keywords": [
+    "agent-skill", "astro", "seo", "llms-txt", "json-ld", "sitemap",
+    "robots-txt", "indexnow", "schema-org", "geo", "ai-search"
+  ],
+  "scripts": {
+    "test": "node --test scripts/test.mjs"
+  }
+}
